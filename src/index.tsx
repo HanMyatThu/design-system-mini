@@ -4,6 +4,7 @@ import { Header } from "./stories/Header/Header";
 import Icon from "./stories/Icons/Icons";
 import { Page } from "./stories/Page/Page";
 import { Toast } from "./stories/Toast/Toast";
+import { Spinner } from "./stories/Spinner/Spinner";
 
 export {
     Button,
@@ -12,5 +13,6 @@ export {
     Header,
     Icon,
     Page,
-    Toast
+    Toast,
+    Spinner
 }
