@@ -1,14 +1,41 @@
 {
-  "name": "ipts-ds-system",
-  "private": true,
-  "version": "0.0.0",
+  "name": "ipts-ds-system-demo",
+  "private": false,
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "lib/index.js",
   "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/draz21/design-system-demo"
+  },
   "scripts": {
-    "build": "tsc && vite build",
+    "build": "tsc --build \"./tsconfig.json\"",
+    "clean": "rm -rf ./lib",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "prebuild": "npm run clean",
+    "prepublish": "npm run build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "dependencies": {
     "react": "^18.2.0",
