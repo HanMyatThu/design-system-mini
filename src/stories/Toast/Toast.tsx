@@ -1,5 +1,6 @@
 import Icon from '../Icons/Icons'
 import { useMemo } from 'react';
+import '../../tailwind.css';
 import { twMerge } from 'tailwind-merge';
 
 const getToastVariant = (variant: string) => {

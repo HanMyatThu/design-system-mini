@@ -11,7 +11,7 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
-    "moduleResolution": "node",
+    "moduleResolution": "Bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "react-jsx",
@@ -32,11 +32,8 @@
   "references": [{ "path": "./tsconfig.node.json" }],
   "exclude": [
     "node_modules",
+    "babel.config.ts",
     "**/*.stories.tsx",
-    "**/*.stories.ts",
-    "**/*.test.tsx",
-    "**/*.test.ts",
-    "**/*.spec.tsx",
-    "**/*.spec.ts",
+    "**/*.stories.ts"
   ]
 }

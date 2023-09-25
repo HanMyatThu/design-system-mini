@@ -1,4 +1,5 @@
 import Icon from '../Icons/Icons'
+import '../../tailwind.css';
 
 interface CardProps {
   children?: React.ReactNode

@@ -1,6 +1,6 @@
 import type { Preview } from "@storybook/react";
 import { withThemeByDataAttribute } from '@storybook/addon-styling';
-import './tailwind.css';
+import '../src/tailwind.css';
 
 const preview: Preview = {
   parameters: {

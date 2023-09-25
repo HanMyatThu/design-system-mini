@@ -1,5 +1,6 @@
 import { useMemo } from 'react';
 import { twMerge as tw } from 'tailwind-merge';
+import '../../tailwind.css';
 
 const getSizeClasses = (size: string) => {
   switch (size) {

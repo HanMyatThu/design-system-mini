@@ -1,3 +1,4 @@
+import '../../tailwind.css';
 interface IconsProps {
   width?: string,
   height?: string,
