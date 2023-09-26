@@ -27,6 +27,7 @@ export const Table: React.FC<TableProps> = ({
   const totalRecords = data.length;  
 
   const [ pageIndex, setPageIndex] = useState<number>(1)
+  console.log(pageIndex,'pageIndex')
 
   const totalPages = useMemo((): number => {
     if(count) {

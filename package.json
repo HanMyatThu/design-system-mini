@@ -1,7 +1,7 @@
 {
   "name": "ipts-ds-system-demo",
   "private": false,
-  "version": "1.0.7",
+  "version": "1.0.8",
   "license": "MIT",
   "main": "lib/index.js",
   "type": "module",
