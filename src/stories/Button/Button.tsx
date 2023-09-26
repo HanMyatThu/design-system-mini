@@ -25,19 +25,23 @@ const BASE_BUTTON_CLASSES =
   'cursor-pointer rounded-full border-2 font-bold leading-none inline-block';
 
 interface ButtonProps {
+  id?: string,
   primary: boolean,
   size: 'small' | 'large' | 'medium',
   label: string,
   className?: string,
+  isDisabled?: boolean,
   onClick: () => void,
 }
 
 export const Button: React.FC<ButtonProps> = ({ 
+  id,
   primary = false, 
   size = 'medium', 
   label, 
   className,
   onClick,
+  isDisabled,
   ...props 
 } : ButtonProps ) => {
 
@@ -48,7 +52,7 @@ export const Button: React.FC<ButtonProps> = ({
   }, [primary, size]);
 
   return (
-    <button onClick={onClick} type="button" className={tw(`${BASE_BUTTON_CLASSES} ${computedClasses}`, className ? className : undefined)} {...props}>
+    <button id={id} disabled={isDisabled} onClick={onClick} type="button" className={tw(`${BASE_BUTTON_CLASSES} ${computedClasses}`, className ? className : undefined)} {...props}>
       {label}
     </button>
   );
