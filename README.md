@@ -1,27 +1,24 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Design System (StoryBook)
 
-Currently, two official plugins are available:
+This Design system is developed with TypeScript, React, Vite , TailWind CSS and for unit testing, I use React-Testing Library and Jest.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### What is Design System
+A design system is a collection of reusable components with clearly defined standards for use. These components combine pattern libraries, colors, and fonts with standardized design principles to help companies achieve consistent visual design at scale.
 
-## Expanding the ESLint configuration
+***NOTE*** : 
+This is a proposed demo version of design system and it's not using in anywhere. None of this code that is included in this repositories is not being used or not being a part of any other software. This is just a prototype for my portfolio.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+#### How to check this ####
 
-- Configure the top-level `parserOptions` property like this:
+- Git Clone
+- cd folder and npm install
+- npm run StoryBook
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+***DEPLOYMENT*** Chromatic link : 
+https://65129588b3169b2dd08e49fc-hhzbjundhq.chromatic.com
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+This project is deployed to NPM and you can install in your repositories to use this design system.
+
+
+
