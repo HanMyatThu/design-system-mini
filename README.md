@@ -7,7 +7,7 @@ This Design system is developed with TypeScript, React, Vite , TailWind CSS and 
 A design system is a collection of reusable components with clearly defined standards for use. These components combine pattern libraries, colors, and fonts with standardized design principles to help companies achieve consistent visual design at scale.
 
 ***NOTE*** : 
-This is a proposed demo version of design system and it's not using in anywhere. None of this code that is included in this repositories is not being used or not being a part of any other software. This is just a prototype for my portfolio.
+This is a proposed demo version of design system and it's not being used in anywhere. None of this code that is included in this repositories is not being used or not being a part of any other software. This is just a prototype for my portfolio. The one that I developed for my company is far larger than this.
 
 #### How to check this ####
 
